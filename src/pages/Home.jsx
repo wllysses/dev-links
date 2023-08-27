@@ -32,6 +32,7 @@ const HomeWrapper = styled.div`
     font-family: 'Open Sans', sans-serif;
     color: var(--dark-color);
     transition: 0.2s;
+    padding: 0.7rem;
 
     .container {
         max-width: 500px;
