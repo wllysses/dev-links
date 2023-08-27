@@ -5,7 +5,7 @@ import { useState } from "react";
 export const themes = {
 
     light: {
-        color: '#14212A',
+        color: '#FFF6ED',
         background: '#fff'
         
     },

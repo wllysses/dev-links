@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import avatar from '../../assets/foto-perfil.jpg'
+import logo from '../../assets/artelier-logo.png'
 import { GoVerified } from 'react-icons/go'
 
 export const Header = () => {
@@ -7,12 +7,12 @@ export const Header = () => {
     return (
         <Wrapper>
             <header>
-                <Avatar src={avatar} alt="Minha foto de perfil" />
+                <Avatar src={logo} alt="Logo Artelier" />
                 <div className="my-user">
-                    <h2>@wllyssesjr</h2>
+                    <h2>@artelier_pb</h2>
                     <GoVerified size={20} color={`var(--primary-color)`} />
                 </div>
-                <h5>Front-end Developer</h5>
+                <h5>Quadros & Personalizados</h5>
             </header>
         </Wrapper>
     )
@@ -34,7 +34,6 @@ const Wrapper = styled.div`
 `
 
 const Avatar = styled.img`
-    max-width: 40%;
+    max-width: 120px;
     border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .206);
 `

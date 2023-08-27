@@ -6,13 +6,13 @@ export const Links = () => {
     return (
         <ListLinks>
             <LinkItem>
-                <a href="https://my-portfolio-wllysses.vercel.app/" target='_blank'>Portfólio</a>
+                <a href="https://artelier.vercel.app/" target='_blank'>Site</a>
             </LinkItem>
             <LinkItem>
-                <a href="https://github.com/wllysses" target='_blank'>Github</a>
+                <a href="https://api.whatsapp.com/send?phone=5583986903987" target='_blank'>Whatsapp</a>
             </LinkItem>
             <LinkItem>
-                <a href="https://www.linkedin.com/in/wllysses-tavares-29a9a7223/" target='_blank'>Linkedin</a>
+                <a href="https://instagram.com/artelier_pb" target='_blank'>Instagram</a>
             </LinkItem>
         </ListLinks>
     )

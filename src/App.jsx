@@ -19,10 +19,11 @@ export default App
 const GlobalStyle = createGlobalStyle`
 
   :root {
-    --primary-color: #44ADFF;
-    --secondary-color: #14212A;
+    --primary-color: #C98258;
+    --secondary-color: #FFF6ED;
     --white-color: #fff;
-    --hover-color: #3a91d4;
+    --dark-color: #000;
+    --hover-color: #ad6e4a;
   }
 
   * {
