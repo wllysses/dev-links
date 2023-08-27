@@ -9,7 +9,7 @@ export const Home = () => {
 
     return (
         <HomeWrapper bg={bg}>
-            <div className="container">
+            <div className="container" data-aos="fade">
                 <Header />
                 {/* <ThemeToggler /> */}
                 <Links />

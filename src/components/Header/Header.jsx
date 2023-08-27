@@ -7,12 +7,14 @@ export const Header = () => {
     return (
         <Wrapper>
             <header>
-                <Avatar src={logo} alt="Logo Artelier" />
-                <div className="my-user">
-                    <h2>@artelier_pb</h2>
-                    <GoVerified size={20} color={`var(--primary-color)`} />
+                <Avatar src={logo} alt="Logo Artelier" data-aos="fade-right" />
+                <div className="my-user" data-aos="fade-left">
+                    <div>
+                        <h2>@artelier_pb</h2>
+                        <GoVerified size={20} color={`var(--primary-color)`} />
+                    </div>
+                    <h5>Quadros & Personalizados</h5>
                 </div>
-                <h5>Quadros & Personalizados</h5>
             </header>
         </Wrapper>
     )
@@ -24,11 +26,19 @@ const Wrapper = styled.div`
         align-items: center;
         flex-direction: column;
         gap: 1rem;
+        margin-bottom: 1rem;
 
         .my-user {
             display: flex;
             align-items: center;
+            flex-direction: column;
             gap: 0.5rem;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
         }
     }
 `

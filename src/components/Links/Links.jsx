@@ -5,13 +5,13 @@ export const Links = () => {
 
     return (
         <ListLinks>
-            <LinkItem>
+            <LinkItem data-aos="fade-right">
                 <a href="https://artelier.vercel.app/" target='_blank'>Site</a>
             </LinkItem>
-            <LinkItem>
+            <LinkItem data-aos="fade-left">
                 <a href="https://api.whatsapp.com/send?phone=5583986903987" target='_blank'>Whatsapp</a>
             </LinkItem>
-            <LinkItem>
+            <LinkItem data-aos="fade-right">
                 <a href="https://instagram.com/artelier_pb" target='_blank'>Instagram</a>
             </LinkItem>
         </ListLinks>
